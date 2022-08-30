@@ -9,7 +9,7 @@ import Rentalfleet from './components/Rentalfleet';
 // Justine Navbar
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
 import Autolistings from './components/pages/Autolistings';
 import About from './components/pages/About';
 import Testimonials from './components/pages/Testimonials';
@@ -34,7 +34,7 @@ function App() {
       </Routes>
     </Router>
 
-<Ourbenefits/>
+      <Ourbenefits/>
       <Rentalworks/>
       <Rentalfleet/>
       </>
