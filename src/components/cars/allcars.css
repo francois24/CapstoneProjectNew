@@ -25,7 +25,7 @@
 .fltrent {
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 6px;
+    padding-top: 9px;
     text-align: center;
     border-radius: 4px;
 }
@@ -33,9 +33,6 @@
 .fltrent:hover {
     color: white;
     background-color: #bf0404;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 6px;
     border-color: #bf0404;
 }
 
