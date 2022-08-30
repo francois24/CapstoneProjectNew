@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ourb {
+    margin-bottom: -5%;
+    z-index: 2;
+    position: relative;
+}
+
+.ourtle {
+    color: #333333;
+    padding: 5px 25px;
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.ourh5 {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 600;
+    background-clip: inherit;
+    background-color: inherit;
+    -webkit-text-fill-color: #333333;
+}
+
+.ourem {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-clip: inherit;
+    background-color: inherit;
+    -webkit-text-fill-color: #999999;
+}
+
+.par {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.9;
+}
