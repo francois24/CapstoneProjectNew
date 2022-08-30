@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 // Justine Navbar
 import Navbar from './components/Navbar';
-import Home from './components/pages/Home';
+import Home from './components/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Autolistings from './components/pages/Autolistings';
-import About from './components/pages/About';
-import Testimonials from './components/pages/Testimonials';
-import SignUp from './components/pages/SignUp';
-import News from './components/pages/News';
-import Contact from './components/pages/Contact';
+import Autolistings from './components/Autolistings';
+import About from './components/About';
+import Testimonials from './components/Testimonials';
+import SignUp from './components/SignUp';
+import News from './components/News';
+import Contact from './components/Contact';
 
 
 function App() {
