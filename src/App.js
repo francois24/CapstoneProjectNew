@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Ourbenefits from './components/Ourbenefits';
-import Rentalworks from './components/Rentalworks';
-import Rentalfleet from './components/Rentalfleet';
 
 
 // Justine Navbar
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Autolistings from './components/pages/Autolistings';
 import About from './components/pages/About';
 import Testimonials from './components/pages/Testimonials';
@@ -24,19 +21,15 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact component={Home} />
-        <Route path='/Autolistings' component={Autolistings} />
-        <Route path='/About' component={About} />
-        <Route path='/Testimonials' component={Testimonials} />
-        <Route path='/sign-up' component={SignUp} />
-        <Route path='/News' component={News} />
-        <Route path='/Contact' component={Contact} />
+        <Route path='/' exact element={<Home/>} />
+        <Route path='/Autolistings' element={<Autolistings/>} />
+        <Route path='/About' element={<About/>} />
+        <Route path='/Testimonials' element={<Testimonials/>} />
+        <Route path='/sign-up' element={<SignUp/>} />
+        <Route path='/News' element={<News/>} />
+        <Route path='/Contact' element={<Contact/>} />
       </Routes>
     </Router>
-
-<Ourbenefits/>
-      <Rentalworks/>
-      <Rentalfleet/>
       </>
   
   );
