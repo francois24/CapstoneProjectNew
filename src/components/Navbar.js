@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-
 import { Link } from 'react-router-dom';
 import '../css/Navbar.css';
 
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
+  // const [dropdown, setDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -31,7 +30,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' onClick={closeMobileMenu}>
-          <img to='/' className='fa-firstdraft ' src={require('../images/Justine-Logo.png')}width="100" height="80"/>
+          <img to='/' className='fa-firstdraft ' src={require('../images/Justine-Logo.png')} alt='Rental Car' width="100" height="80"/>
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     font-size: .9rem;
-    
   }
   
   .navbar-logo {
@@ -20,7 +19,6 @@
   
   .fa-firstdraft {
   margin-bottom: 25px;
-  
   }
   
   .nav-menu {
@@ -32,8 +30,6 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
-    /* margin-bottom: 70vh; */
-    
   }
   
   .nav-item {
@@ -151,9 +147,4 @@
     button {
       display: none;
     }
-  
-    /* .fa-firstdraft {
-    margin-top: 4vh;
-    
-    } */
   }
