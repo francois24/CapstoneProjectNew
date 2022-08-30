@@ -5,6 +5,8 @@ import Ourbenefits from './components/Ourbenefits';
 import Rentalworks from './components/Rentalworks';
 import Rentalfleet from './components/Rentalfleet';
 
+//tom
+import { FooterContainer } from './components/footer';
 
 // Justine Navbar
 import Navbar from './components/Navbar';
@@ -16,6 +18,8 @@ import Testimonials from './components/pages/Testimonials';
 import SignUp from './components/pages/SignUp';
 import News from './components/pages/News';
 import Contact from './components/pages/Contact';
+
+
 
 
 function App() {
@@ -37,6 +41,7 @@ function App() {
       <Ourbenefits/>
       <Rentalworks/>
       <Rentalfleet/>
+      <FooterContainer/>
       </>
   
   );
