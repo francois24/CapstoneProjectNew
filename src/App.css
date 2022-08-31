@@ -83,7 +83,7 @@
     font-size:clamp(50px, 20vw,100px) ;
   
   }
-  /* Latest News */
+  /* Latest News
   .titleall {
     width: 10%;
     position: relative;
@@ -145,4 +145,4 @@
     margin-top: 0px;
     margin-bottom: 0px;
     color: #333333;
-  }
+  } */
