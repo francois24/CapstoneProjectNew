@@ -1,0 +1,71 @@
+
+/* Latest News */
+.Latestall {
+  margin-bottom: 100px;
+}
+.titleall {
+    width: 10%;
+    position: relative;
+    height: 1%;
+    background-color:#bf0404 ;
+   border: none;
+   font-size: 3px;
+   color:#bf0404;
+   margin-bottom: 2%;
+   
+  }
+  .caroucard .Card{
+    border: none;
+  }
+  .caroucard a {
+    text-decoration: none;
+    font-weight: bolder;
+    color:#1a1a1a;
+    line-height: 1.1;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Raleway;
+    
+  }
+  
+  .caroucard a:hover {
+    text-decoration:underline;
+    font-weight: bolder;
+  
+  }
+  
+  .caroucard span{
+    margin-left: 5px;
+    color: #666666;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+  .year {
+    margin-right: 10px;
+    margin-left: -20px;
+  }
+  
+  .h4 {
+    font-family: 'Raleway' !important;
+      font-weight: 400 !important;
+  }
+  
+  .p1 {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #333333;
+  }
+  
+  .sisliall1 {
+    width: 85%;
+    margin: auto;
+    
+  }
+
+  .cardtextall {
+    font-size: 14px;
+    line-height: 1.7;
+    padding-bottom: 25px;
+  }

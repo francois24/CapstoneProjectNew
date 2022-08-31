@@ -55,3 +55,11 @@ export const Title = styled.p`
   font-weight: bold;
   font-family: 'Nunito Sans', sans-serif;
 `;
+
+export const LogoDes = styled.p`
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style:oblique;
+`;

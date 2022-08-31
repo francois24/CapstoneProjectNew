@@ -1,6 +1,9 @@
+
 import React from 'react'
 import Footer from '.././css/footer'
 import Icon from '.././css/icons'
+import image from '../media/justineLogoImg1.png'
+
 
 export function FooterContainer() {
     return (
@@ -8,7 +11,10 @@ export function FooterContainer() {
             <Footer.Wrapper>
             <Footer.Row>
                 <Footer.Column>
-                <Footer.Title>RentCar</Footer.Title>
+                <img src={image} height={100} width={120} alt="imagelogo"/>
+                <Footer.LogoDes>Copyright © 2018 RentCar.
+                All Rights Reserved.
+                </Footer.LogoDes>
                 </Footer.Column>
                 <Footer.Column>
                 <Footer.Title>USEFUL LINKS</Footer.Title>
@@ -32,6 +38,15 @@ export function FooterContainer() {
                     <Footer.Link href="#"><Icon className="fab fa-twitter" />Twitter</Footer.Link>
                 </Footer.Column>
             </Footer.Row>
+            {/* <Footer.Row1>
+                <Footer.Column1>
+                    <Footer.Title1>Copyright © 2018 CarRent <Footer.Row1>
+                <Footer.Column1>
+                    <Footer.Title1>Copyright © 2018 WordPress Theme. All Rights Reserved.</Footer.Title1>
+                </Footer.Column1>
+            </Footer.Row1>. All Rights Reserved.</Footer.Title1>
+                </Footer.Column1>
+            </Footer.Row1> */}
             </Footer.Wrapper>
         </Footer>
     )
