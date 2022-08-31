@@ -27,7 +27,7 @@ export default class Carslick extends Component {
             }
           },
           {
-            breakpoint: 1050,
+            breakpoint: 830,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
@@ -35,7 +35,7 @@ export default class Carslick extends Component {
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 500,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1

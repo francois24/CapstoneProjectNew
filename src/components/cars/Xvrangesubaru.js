@@ -14,6 +14,7 @@ import Gearbx from '../../media/gearbox.png'
 
 export default function Xvrangesubaru() {
   return (
+    
     <Card className='p-2 crdsmpleall' sx={{ maxWidth: 350, boxShadow: 0 }}>
       <CardMedia
         component="img"
@@ -46,22 +47,22 @@ export default function Xvrangesubaru() {
           <Row>
               <Col className='p-0 mt-0'>
                 <ul className='fltli'>
-                  <li><i class="fa fa-check">Pay at Pick-Up</i></li>
-                  <li><i class="fa fa-check">Chilled AC</i></li>
-                  <li><i class="fa fa-check">Free cancellation</i></li>
-                  <li><i class="fa fa-check">Audio input</i></li>
-                  <li><i class="fa fa-check">Heated seats</i></li>
+                  <li><i class="fa fa-check"><span>Pay at Pick-Up</span></i></li>
+                  <li><i class="fa fa-check"><span>Chilled AC</span></i></li>
+                  <li><i class="fa fa-check"><span>Free cancellation</span></i></li>
+                  <li><i class="fa fa-check"><span>Audio input</span></i></li>
+                  <li><i class="fa fa-check"><span>Heated seats</span></i></li>
                 </ul>
               </Col>
               <Col className='p-0 mt-0'>
                 <ul className='fltli'>
-                  <li><i class="fa fa-check">Budget Car</i></li>
-                  <li><i class="fa fa-check">Automatic/Manual</i></li>
-                  <li><i class="fa fa-check">Unlimited Mileage</i></li>
-                  <li><i class="fa fa-check">Bluetooth</i></li>
+                  <li><i class="fa fa-check"><span>Budget Car</span></i></li>
+                  <li><i class="fa fa-check"><span>Automatic/Manual</span></i></li>
+                  <li><i class="fa fa-check"><span>Unlimited Mileage</span></i></li>
+                  <li><i class="fa fa-check"><span>Bluetooth</span></i></li>
                 </ul>
               </Col>
-          </Row>
+            </Row>
         </Container>
         </Typography>
       </CardContent>

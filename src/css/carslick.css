@@ -4,7 +4,9 @@
 }
 
 .sisliall {
-    width: 70%;
+    width: 85%;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
 }
