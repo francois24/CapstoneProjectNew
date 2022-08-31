@@ -25,3 +25,5 @@ node_modules
 .vscode
 build
 desktop.ini
+package.json
+package-lock.json
