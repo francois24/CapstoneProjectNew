@@ -5,7 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 //tom
-import { FooterContainer } from './components/footer';
+import { FooterContainer } from './components/footer';import SimpleSlider from './components/homepage/review';
+
 
 // Justine Navbar
 import Navbar from './components/Navbar';
@@ -34,6 +35,9 @@ function App() {
         <Route path='/Contact' element={<Contact/>} />
       </Routes>
     </Router>
+    <SimpleSlider />
+    <br>
+    </br>
     <FooterContainer/>
       </>
   
