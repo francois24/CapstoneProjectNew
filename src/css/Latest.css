@@ -1,7 +1,7 @@
 
 /* Latest News */
 .Latestall {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 .titleall {
     width: 10%;
@@ -23,8 +23,7 @@
     color:#1a1a1a;
     line-height: 1.1;
     font-size: 18px;
-    font-weight: 700;
-    font-family: Raleway;
+    font-family: 'nunito' sans-serif;
     
   }
   
@@ -46,8 +45,8 @@
   }
   
   .h4 {
-    font-family: 'Raleway' !important;
-      font-weight: 400 !important;
+    font-family: 'nunito' sans-serif;
+      font-weight: 700;
   }
   
   .p1 {
