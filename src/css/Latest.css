@@ -52,9 +52,11 @@
   .p1 {
     font-size: 14px;
     line-height: 1.8;
+    color: #333333;
+    text-align: center;
+    padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #333333;
   }
   
   .sisliall1 {
@@ -68,3 +70,13 @@
     line-height: 1.7;
     padding-bottom: 25px;
   }
+
+  .hh4 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #999999;
+    font-family: 'nunito' sans-serif;
+}

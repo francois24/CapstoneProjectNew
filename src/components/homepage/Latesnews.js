@@ -46,7 +46,7 @@ export default class SimpleSlider1 extends Component {
       <Container class="m-5">
       <Row>
         <Col ><h1 class="text-center mt-5 h4"style={{fontSize:'2rem',fontWeight:'bolder'}}>LATEST NEWS</h1>
-        <p class="text-center hh4 mb-4">Luxury AutoStar Rental Services</p>
+        <p class="text-center hh4 mb-4"><em>Luxury RentCar Rental Services</em></p>
         <p class="text-center p1">Amco laboris nisi ut aliquip xea comod consequt duis aute irure dolor reprehenderit</p>
         <p class="text-center p1">voluptate velit cillum dolore fugiat lore ipsum dolor sit amet consectetur adipisicing</p>
         <p class="text-center p1 mb-5">elit sed do eiusmod tempor incididunt</p>
@@ -68,10 +68,8 @@ export default class SimpleSlider1 extends Component {
           <div>
           <LatestCard4/>
           </div>
-          {/* <div>
-          <CardLatestnews/>
-          </div> */}
         </Slider>
+        <div id='testimonials'></div>
       </div>
       </div>
     );
