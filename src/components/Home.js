@@ -5,6 +5,7 @@ import Rentalworks from './homepage/Rentalworks';
 import Rentalfleet from './homepage/Rentalfleet';
 import Carslick from './homepage/Carslick';
 import Latestnews from './homepage/Latesnews'
+import Reviews from './homepage/review';
 import Banner from './homepage/Banner'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Rentalfleet/>
       <Carslick/>
       <Latestnews/>
+      <Reviews/>
     </main>
     </>
   );
