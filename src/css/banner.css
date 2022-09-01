@@ -1,0 +1,41 @@
+ 
+.bannerContainer {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bannerContainer::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 130%;
+    top: -26%;
+    left: -15%;
+    z-index: -1;
+    background: url('../media/melBanner.jpg') no-repeat;
+    background-position: center;
+    transform: rotate(355deg);
+}
+
+.bannerCol h1 {
+    font-weight: bolder;
+    font-size: clamp(1.5rem, 3.5vw, 3rem);
+}
+
+.bannerCol p {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    padding: 0;
+    margin: 0;
+}
+
+.bannerRow {
+    height: 90vh;
+}
+
+.datepicker {
+    padding-top: 20rem;
+    width: 15rem;
+}
