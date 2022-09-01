@@ -6,6 +6,7 @@
 .mainwrks {
     width: 100%;
     height: 100vh;
+    margin: 0px;
 }
 
 .vidwrks {
@@ -21,11 +22,14 @@
     width: 100%;
     padding-top: 3px;
     padding-bottom: 3px;
+    padding-right: 2px;
+
   }
 
 .bannerwrks::after {
     content: ""; 
     position: absolute;
+    width: 100%;
     top: 65%;
     z-index: 1;
   
@@ -66,8 +70,8 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    display: flex; 
+    overflow: none;
+    display: flex;
 }
 
 .titlewrks {
@@ -144,16 +148,8 @@
 
 }
 
-@media screen and (max-width: 284px) {
-    .titlewrks {
-        font-size: 10px;
-        line-height: 1;
-        font-weight: 300;
-    }
-
-    .pwrks {
-        font-size: 12px;
-        line-height: 1;
-        font-weight: 75;
-    }
+@media screen and (max-width: 364) {
+    /* .bannerwrks {
+        padding-right: 20px;
+    } */
 }
