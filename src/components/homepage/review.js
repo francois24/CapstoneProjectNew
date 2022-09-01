@@ -5,7 +5,7 @@ import ComplexGrid from "./reviewSlider";
 import '../../css/rentalfleet.css'
 
 
-export default class SimpleSlider extends Component {
+export default class Reviews extends Component {
   render() {
     const settings = {
       dots: true,
@@ -16,7 +16,7 @@ export default class SimpleSlider extends Component {
 
     };
     return (
-      <div>
+      <div className="revall">
         <div className='fleetjd'>
       <h3 className='fleetle'>Customer Review</h3>
       <div className='emflt'><em >Luxury RentCar Rental Services</em></div>
