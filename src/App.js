@@ -5,7 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 //tom
-import { FooterContainer } from './components/footer';import SimpleSlider from './components/homepage/review';
+import { FooterContainer } from './components/footer';
+import SimpleSlider from './components/homepage/review';
 
 
 // Justine Navbar

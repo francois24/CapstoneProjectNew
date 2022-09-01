@@ -5,7 +5,7 @@ import Rentalworks from './homepage/Rentalworks';
 import Rentalfleet from './homepage/Rentalfleet';
 import Carslick from './homepage/Carslick';
 import Latestnews from './homepage/Latesnews'
-import Banner from './homepage/banner'
+import Banner from './homepage/Banner'
 
 export default function Home() {
   return (
@@ -16,7 +16,8 @@ export default function Home() {
       <Rentalworks/>
       <Rentalfleet/>
       <Carslick/>
-      <Latestnews/>
+      <div id='news'></div>
+      <Latestnews />
     </main>
     </>
   );
