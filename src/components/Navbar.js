@@ -28,23 +28,33 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar sticky-top d-flex justify-content-between'>
         <Link to='/' onClick={closeMobileMenu}>
-          <img to='/' className='fa-firstdraft' src={require('../images/Justine-Logo.png')} alt='Rental Car' width="100" height="80"/>
+            <img className='navbar-logo' src={require('../media/jusLogoImg.png')} alt='Rental Car'/>
+          
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
+
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-             HOME
+            <Link
+              to='/'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              HOME
             </Link>
           </li>
           
           <li className='nav-item'>
-            <Link to='/Autolistings' className='nav-links' onClick={closeMobileMenu}>
+            <Link
+              to='/Autolistings'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
               AUTOLISTINGS
             </Link>
           </li>
@@ -55,16 +65,17 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-             ABOUT US
+              ABOUT US
             </Link>
           </li>
+
           <li className='nav-item'>
             <Link
               to='/Testimonials'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-          TESTIMONIALS
+              TESTIMONIALS
             </Link>
           </li>
 
@@ -78,7 +89,6 @@ function Navbar() {
             </Link>
           </li>
 
-
           <li className='nav-item'>
             <Link
               to='/Contact'
@@ -88,6 +98,7 @@ function Navbar() {
              CONTACT
             </Link>
           </li>
+
         </ul>
        
       </nav>
