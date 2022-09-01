@@ -5,17 +5,20 @@ import Rentalworks from './homepage/Rentalworks';
 import Rentalfleet from './homepage/Rentalfleet';
 import Carslick from './homepage/Carslick';
 import Latestnews from './homepage/Latesnews'
+import Reviews from './homepage/review';
+import Banner from './homepage/banner'
 
 export default function Home() {
   return (
     <>
     <main>
-      <h1 className='home'>Home</h1>
+      <Banner />
       <Ourbenefits/>
       <Rentalworks/>
       <Rentalfleet/>
       <Carslick/>
       <Latestnews/>
+      <Reviews/>
     </main>
     </>
   );

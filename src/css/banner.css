@@ -1,0 +1,54 @@
+ 
+.bannerContainer {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bannerContainer::before {
+    content: "";
+    position: absolute;
+    width: 200vw;
+    height: 100vh;
+    top: -16%;
+    left: -15%;
+    z-index: -1;
+    background: url('../media/melBanner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: rotate(355deg);
+}
+
+.bannerCol h1 {
+    font-weight: bolder;
+    font-size: clamp(1.5rem, 3.5vw, 3rem);
+}
+
+.bannerCol p {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    padding: 0;
+    margin: 0;
+}
+
+.bannerRow {
+    height: 90vh;
+}
+
+.datepicker {
+    padding-top: 20rem;
+    width: 15rem;
+}
+
+/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:focus {
+    outline-color: solid red;
+} */
+
+/* .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    background-color: red;
+} */
+
+/* .MuiOutlinedInput-root.Mui-focused {
+    outline-color: red;
+  } */
