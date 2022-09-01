@@ -46,3 +46,11 @@
 .revall {
     margin-bottom: 130px;
 }
+
+.slick-next {
+    right: 25px;
+}
+
+.slick-prev {
+    left: 25px;
+}
