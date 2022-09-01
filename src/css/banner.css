@@ -10,12 +10,13 @@
 .bannerContainer::before {
     content: "";
     position: absolute;
-    width: 150%;
-    height: 130%;
-    top: -26%;
+    width: 200vw;
+    height: 100vh;
+    top: -15%;
     left: -15%;
     z-index: -1;
     background: url('../media/melBanner.jpg') no-repeat;
+    background-size: cover;
     background-position: center;
     transform: rotate(355deg);
 }

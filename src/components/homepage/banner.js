@@ -1,6 +1,6 @@
 import '../../css/banner.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import MaterialUIPickers from './DatePicker'
+import MaterialUIPickers from './datePicker'
 
 
 export default function Banner() {

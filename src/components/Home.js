@@ -6,7 +6,7 @@ import Rentalfleet from './homepage/Rentalfleet';
 import Carslick from './homepage/Carslick';
 import Latestnews from './homepage/Latesnews'
 import Reviews from './homepage/review';
-import Banner from './homepage/Banner'
+import Banner from './homepage/banner'
 
 export default function Home() {
   return (
