@@ -41,14 +41,25 @@
     width: 15rem;
 }
 
-/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:focus {
-    outline-color: solid red;
-} */
 
-/* .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
-    background-color: red;
-} */
+/* Override Mui themes on DatePicker */
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: red !important;
+}
 
-/* .MuiOutlinedInput-root.Mui-focused {
-    outline-color: red;
-  } */
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: red !important;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: red !important;
+}
+
+.Mui-selected {
+    will-change: background-color;
+    background-color: red !important;
+}
+
+.MuiButton-text {
+    color: red !important;
+}
