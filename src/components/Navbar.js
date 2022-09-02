@@ -70,7 +70,7 @@ function Navbar() {
           </li>
 
           <li className='nav-item'>
-            <a href='#testimonials'
+            <a href='/#testimonials'
               className='nav-links'
             >
               TESTIMONIALS
