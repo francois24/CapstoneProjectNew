@@ -3,12 +3,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # NPM installations
-npm install @mui/material @emotion/react @emotion/styled
-npm install @mui/icons-material
-npm install react-bootstrap bootstrap
-npm install react-router-dom
-npm install @mui/x-date-pickers
-npm install dayjs
+npm install @mui/material @emotion/react @emotion/styled\
+npm install @mui/icons-material\
+npm install react-bootstrap bootstrap\
+npm install react-router-dom\
+npm install @mui/x-date-pickers\
+npm install dayjs\
 ... add as new installations are made
 
 ## Available Scripts
