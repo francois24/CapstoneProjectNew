@@ -6,7 +6,7 @@ import '../css/Contactform.css'
 export default function Contact() {
 
   return (
-    <div className='p-3 m-5'>
+    <div className='p-3 mb-5 mt-5'>
         <Container className='mt-5'>
      
             <Row>
