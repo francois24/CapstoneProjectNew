@@ -4,6 +4,12 @@
     padding: 0;
     font-family: 'nunito', sans-serif;
 }
+
+.h1cont {
+    font-size: 4rem;
+    font-family: 'nunito', sans-serif;
+    font-weight: 700;
+}
 .formh1 {
     font-weight: 700;
     font-family:'nunito',sans-serif;

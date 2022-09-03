@@ -7,6 +7,7 @@ export default function Contact() {
 
   return (
     <div className='p-3 mb-5 mt-5'>
+        <h1 className='text-center h1cont'>CONTACT US</h1>
         <Container className='mt-5'>
      
             <Row>
