@@ -23,7 +23,7 @@ export default function Xvrangesubaru() {
         alt="XV Range Subaru"
         className='p-3'
       />
-      <CardContent style={{backgroundColor: 'rgb(148, 148, 148,0.1)'}}>
+      <CardContent style={{backgroundColor: '#f3f3f3'}}>
         <Typography gutterBottom variant="" component="div" className='text-center'>
           <h5 className='fltnme'>XV Range Subaru</h5>
           <div className='fltfull mt-3'>
