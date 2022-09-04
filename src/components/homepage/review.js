@@ -18,7 +18,7 @@ export default class Reviews extends Component {
     return (
       <div className="revall">
         <div className='fleetjd'>
-      <h3 className='fleetle'>Customer Review</h3>
+      <h3 className='fleetle'>CUSTOMER REVIEWS</h3>
       <div className='emflt'><em >Luxury RentCar Rental Services</em></div>
       
       </div>
