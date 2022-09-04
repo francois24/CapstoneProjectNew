@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # NPM installations
+npm install axios\
 npm install @mui/material @emotion/react @emotion/styled\
 npm install @mui/icons-material\
 npm install react-bootstrap bootstrap\

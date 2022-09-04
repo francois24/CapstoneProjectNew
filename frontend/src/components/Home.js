@@ -7,6 +7,7 @@ import Carslick from './homepage/Carslick';
 import Latestnews from './homepage/Latesnews'
 import Reviews from './homepage/review';
 import Banner from './homepage/banner'
+import Rentalserv from './homepage/Rentalserv'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Rentalworks/>
       <Rentalfleet/>
       <Carslick/>
+      <Rentalserv/>
       <Latestnews/>
       <Reviews/>
     </main>
