@@ -1,6 +1,9 @@
 import React from 'react';
 import '../App.css';
+import Autocar from './autolistings/Autocar';
 
 export default function Autolistings() {
-  return <h1 className='Autolistings'>AUTOLISTINGS</h1>;
+  return (
+    <Autocar/>
+  );
 }

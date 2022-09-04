@@ -23,7 +23,7 @@ export default function Forestersubaru() {
         alt="Forester Subaru"
         className='p-3'
       />
-      <CardContent style={{backgroundColor: 'rgb(148, 148, 148,0.1)'}}>
+      <CardContent style={{backgroundColor: '#f3f3f3'}}>
         <Typography gutterBottom variant="" component="div" className='text-center'>
           <h5 className='fltnme'>Forester Subaru</h5>
           <div className='fltfull mt-3'>
@@ -69,7 +69,7 @@ export default function Forestersubaru() {
       <CardActions style={{backgroundColor: 'rgb(148, 148, 148,0.1)'}}>
         <div className='fltact'>
           <div className='fltday'>
-            <h6>$655 / per day</h6>
+            <h6>&#8369;&nbsp;1,000 / per day</h6>
           </div>
           <div>
             <button className='fltrent'><h6>RENT&#160;IT</h6></button>
