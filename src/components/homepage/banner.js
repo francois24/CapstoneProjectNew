@@ -21,6 +21,7 @@ export default function Banner() {
                     </div>
                 </div>
             </div>
+            <div id='indexaboutus'></div>
         </div>
 
     )

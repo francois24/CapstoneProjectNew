@@ -68,7 +68,7 @@ export default function Miragerange() {
       <CardActions style={{backgroundColor: 'rgb(148, 148, 148,0.1)'}}>
         <div className='fltact'>
           <div className='fltday'>
-            <h6>$655 / per day</h6>
+            <h6>&#8369;&nbsp;1,000 / per day</h6>
           </div>
           <div>
             <button className='fltrent'><h6>RENT&#160;IT</h6></button>
