@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'nunito', sans-serif;
+}
+
+.h1cont {
+    font-size: 4rem;
+    font-family: 'nunito', sans-serif;
+    font-weight: 700;
+}
+.formh1 {
+    font-weight: 700;
+    font-family:'nunito',sans-serif;
+    color: #353535;
+}
+.formh2 {
+    font-weight: 700;
+    font-family:'nunito',sans-serif;
+    color: #fff;
+}
+
+.cont {
+    font-weight: 500;
+    font-family:sans-serif;
+    color: #fff;
+}
+
+.icon {
+    position: absolute;
+    top: calc(35%);
+    left: 1.25rem;
+    color: #bf0404;
+  
+}
+
+.form-floating label, .form-floating .form-control {
+    left: .5rem;
+    padding-left: 3.5rem;
+    font-weight: 700;
+    font-family:'nunito' sans-serif;
+}
+
+.icon-textarea {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.25rem;
+    color: #bf0404;
+   
+}
+
+.btnform {
+    color: #fff;
+    font-weight: 700;
+    font-family:sans-serif;
+    background: #353535;
+    float: right;
+}
+
+.btnform:hover {
+    background-color: #bf0404;
+    color: #fff;
+}
+
+
+.socialicon1 ul  {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.socialicon1 ul li {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    list-style: none;
+    margin-top: 5rem;
+    font-size: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+
+.socialicon1 a {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    list-style: none;
+    margin-top: 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.socialicon1 a:hover {
+    color: #bf0404;
+}
+
+
+.bgcol {
+    padding: 20px;
+    margin-bottom: 2rem;
+    background: #f3f3f3;
+
+ 
+}
+
+
+.bgcol1 {
+    padding: 20px;
+    margin-bottom: 2rem;
+    background: #353535;
+    color: #fff;
+    list-style: none;
+}
+
+.bgcol1 span{
+    margin-left: 10px;
+
+}

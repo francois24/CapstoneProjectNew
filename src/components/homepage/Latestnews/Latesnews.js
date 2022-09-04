@@ -57,20 +57,17 @@ export default class SimpleSlider1 extends Component {
       <div className="sisliall1">
         <Slider {...settings}>
           <div>
-      <LatestCard1/>
+            <LatestCard1/>
           </div>
           <div>
-        <LatestCard2/>
+            <LatestCard2/>
           </div>
           <div>
-      <LatestCard3/>
+            <LatestCard3/>
           </div>
           <div>
-          <LatestCard4/>
+            <LatestCard4/>
           </div>
-          {/* <div>
-          <CardLatestnews/>
-          </div> */}
         </Slider>
       </div>
       </>
