@@ -1,9 +1,10 @@
 import React from 'react';
+import Newslist from './news/Newslist';
 
 export default function News() {
   return (
     <>
-      <h1 className='News'>NEWS</h1>
+      <Newslist/>
     </>
   );
 }

@@ -30,7 +30,7 @@
   .caroucard a:hover {
     text-decoration:underline;
     font-weight: bolder;
-  
+    color: #333333;
   }
   
   .caroucard span{

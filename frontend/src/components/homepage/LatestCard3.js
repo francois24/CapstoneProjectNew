@@ -10,10 +10,10 @@ function BasicExample() {
       <Row >
         <Col className="p-2" >
       <Card style={{ width: '' }} className="Card">
-      <Card.Img variant="top" src="https://autostar.templines.org/wp-content/uploads/2016/10/137547772.jpg" />
+      <Card.Img variant="top" src="https://autostar.templines.org/wp-content/uploads/2016/10/175522406-1.jpg" />
       <Card.Body >
       <i class='fa fa-calendar ' style={{color:'#bf0404 ',}}><span>August </span><span className='year'>20,2022</span> <i class="fa fa-comments-o"><span>3 COMMETNS</span></i></i> 
-      <Card.Title ><a href="/News" >Ford supplier Flex-n-Gate opens $160 million plant in Detroit</a></Card.Title>
+      <Card.Title ><a href="/Newstoyota" >Toyota Car decline overshadows light-truck gain</a></Card.Title>
             <div className='titleall'>-</div>
         <Card.Text className='cardtextall'>
         Integer tortor bibendum est faucibus gravida aliquam nulla lectus lacinia eget

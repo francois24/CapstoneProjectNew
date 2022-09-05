@@ -61,7 +61,7 @@ function Navbar() {
             <a href='/#indexaboutus'
               className='nav-links'
             >
-              ABOUT US
+              ABOUT&#160;US
             </a>
           </li>
 
@@ -71,17 +71,14 @@ function Navbar() {
             >
               TESTIMONIALS
             </a>
-
           </li>
 
           <li className='nav-item'>
-            <Link
-              to='/News'
+            <a href='/News/#'
               className='nav-links'
-              onClick={closeMobileMenu}
             >
               NEWS
-            </Link>
+            </a>
           </li>
 
           <li className='nav-item'>
@@ -90,7 +87,7 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-             CONTACT
+             CONTACT&#160;US
             </Link>
           </li>
 

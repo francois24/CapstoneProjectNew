@@ -14,7 +14,7 @@ function BasicExample() {
       <Card.Img variant="top" src="https://autostar.templines.org/wp-content/uploads/2016/10/460704445-1.jpg" />
       <Card.Body>
       <i class='fa fa-calendar ' style={{color:'#bf0404 ',}}><span>August </span><span className='year'>20,2022</span> <i class="fa fa-comments-o"><span>3 COMMETNS</span></i></i> 
-      <Card.Title><a href="/News">Dealer agency warns carmakers on safest label after Tesla</a></Card.Title>
+      <Card.Title><a href="/Newsdealer">Dealer agency warns carmakers on safest label after Tesla</a></Card.Title>
             <div className='titleall'>-</div>
         <Card.Text className='cardtextall'>
         Integer tortor bibendum est faucibus gravida aliquam nulla lectus lacinia eget
