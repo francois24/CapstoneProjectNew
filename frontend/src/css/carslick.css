@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sisliall {
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    position: relative;
+}

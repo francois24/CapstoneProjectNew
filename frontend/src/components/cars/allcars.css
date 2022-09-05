@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.crdsmpleall {
+    position: relative;
+}
+
+.fltli {
+   list-style-type: none;
+   font-size: 12px;
+   font-weight: 600;
+   color: rgb(126, 124, 124);
+}
+
+.fltact {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.fltrent {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+}
+
+.fltrent:hover {
+    color: white;
+    background-color: #bf0404;
+    border-color: #bf0404;
+}
+
+.fltspc {
+    height: 30px;
+    width: 30px;
+}
+
+.fltp {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.fltfull {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.fltnme {
+    font-weight: 700;
+}
+
+.fltday {
+    font-size: 17px;
+    font-weight: 600;
+    color: #bf0404;
+}
