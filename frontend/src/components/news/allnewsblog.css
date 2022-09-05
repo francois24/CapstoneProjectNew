@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'nunito' sans-serif;
+}
+
+.newsblog {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.blogcont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogdesc {
+    border: 1px solid #ebe8e8;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.blogdesc h3 {
+    color: #222222;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.blogdesc p {
+    color: #222222;
+    font-size: 15px;
+}
+
+.blogcrd p {
+    font-size: 13px;
+}
+
+.blogcrd {
+    padding: 3rem;
+    background-color: #f3f3f3;
+}
+
+.blogdesc i{
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+}
+
+.blogquote {
+    position: relative;
+}
+
+.blogcrdall {
+    margin-bottom: 1rem;
+}
+
+.blogsoc {
+    float: right;
+}
+
+.blogsoc ul {
+    display: flex;
+    list-style: none;
+}
+
+.blogsoc ul li p {
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+.blogsoc ul li {
+    margin-right: 2px;
+}
+
+.blogfb {
+    color: #1877F2;
+}
+
+.blogtwit {
+    color: #1DA1F2;
+}
+
+.blogpint {
+    color: #BD081C;
+}
+
+.blogemail {
+    color: #005FF9;
+}

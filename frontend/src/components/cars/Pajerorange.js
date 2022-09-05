@@ -71,7 +71,7 @@ export default function Pajerorange() {
             <h6>&#8369;&nbsp;1,000 / per day</h6>
           </div>
           <div>
-            <button className='fltrent'><h6>RENT&#160;IT</h6></button>
+            <a href='/#' className='fltrent'>RENT&#160;IT</a>
           </div>
         </div>
       </CardActions>

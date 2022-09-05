@@ -17,6 +17,10 @@ import Testimonials from './components/Testimonials';
 import SignUp from './components/SignUp';
 import News from './components/News';
 import Contact from './components/Contact';
+import Newsford from './components/news/Newsford';
+import Newsporsche from './components/news/Newsporsche';
+import Newstoyota from './components/news/Newstoyota';
+import Newsdealer from './components/news/Newsdealer';
 
 
 function App() {
@@ -32,6 +36,10 @@ function App() {
         <Route path='/sign-up' element={<SignUp/>} />
         <Route path='/News' element={<News/>} />
         <Route path='/Contact' element={<Contact/>} />
+        <Route path='/Newsford' exact element={<Newsford/>} />
+        <Route path='/Newsporsche' exact element={<Newsporsche/>} />
+        <Route path='/Newstoyota' exact element={<Newstoyota/>} />
+        <Route path='/Newsdealer' exact element={<Newsdealer/>} />
       </Routes>
     </Router>
     <FooterContainer/>

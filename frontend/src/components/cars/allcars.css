@@ -28,10 +28,15 @@
 .fltrent {
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 9px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 3px;
     display: block;
+    border: solid 1px #999999;
+    font-size: 14px;
+    text-decoration: none;
+    color: #222222;
 }
 
 .fltrent:hover {
