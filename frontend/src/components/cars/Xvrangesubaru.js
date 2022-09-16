@@ -72,7 +72,7 @@ export default function Xvrangesubaru() {
             <h6>&#8369;&nbsp;1,000 / per day</h6>
           </div>
           <div>
-            <a href='/#' className='fltrent'>RENT&#160;IT</a>
+            <a href='/Xvrange' className='fltrent'>RENT&#160;IT</a>
           </div>
         </div>
       </CardActions>

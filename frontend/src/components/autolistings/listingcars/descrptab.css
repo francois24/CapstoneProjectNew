@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'nunito' sans-serif;
+}
+
+/* Subaru landing page start */
+.listingsallcars {
+  margin-bottom: 40rem;
+}
+
+.imglistings {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* Subaru landing page end */
+
+
+/* Description Tabs start */
+.containerautol {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #f1f1f1;
+  word-break: break-all;
+}
+
+.bloc-tabsautol {
+  display: flex;
+  position: relative;
+}
+.tabsautol {
+
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.active-tabsautol::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 3px;
+  background: #bf0404;
+  z-index: 1;
+}
+
+.active-tabsautol {
+  color: #bf0404;
+}
+
+.tabsautol:hover {
+  color: #bf0404;
+}
+
+button {
+  border: none;
+  display: block;
+}
+
+.content-tabsautol {
+  flex-grow : 1;
+  position: relative;
+}
+
+.contentautol {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.active-contentautol {
+  display: block;
+}
+/* Description Tabs end */
+
+
+.vehicdesc {
+  margin-top: 2rem;
+}
+
+/* Equipment Description start*/
+.equipdesc {
+  margin-top: 2rem;
+}
+
+.equipdesc table td {
+  padding-top: 15px;
+  border-bottom: 1px dotted #dfdfdf;
+  border-right: solid 25px #fff;
+}
+
+.equipdesc table tr td span {
+  color: #bf0404;
+  font-size: 20px;
+}
+/* Equipment Description end*/
+
+/* Specification Description start*/
+.specsall {
+  border: 1px solid #dfdfdf;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.specsall table tr td {
+  border-bottom: 1px dotted #dfdfdf;
+  padding-top: 15px;
+}
+/* Specification Description end*/
+
+/* Reviews Description start */
+.autolistrevs {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.revsimg img {
+  border: 5px solid #dfdfdf;
+  border-radius: 4rem;
+  padding: 0;
+}
+
+.revscont h6 a {
+  text-decoration: none;
+  color: #bf0404;
+  font-size: 16px;
+}
+
+.revscont h6 a:hover {
+  text-decoration: underline;
+  color: #bf0404;
+}
+
+.revscont p {
+  margin-top: 6px;
+}
+
+.revscont h5 span {
+  font-weight: 600;
+}
+/* Reviews Description end */
+
+/* Rent Now */
+.rentperday {
+  text-align: center;
+  background-color: #262626;
+  color: #fff;
+  padding: 12px;
+}
+
+.rentperday h4 {
+  margin: auto;
+}
+
+.rentncont {
+  background-color: #f3f3f3;
+  height: 500px;
+}
+
+.pckdate {
+  margin-top: 30px;
+}

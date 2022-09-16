@@ -21,6 +21,12 @@ import Newsford from './components/news/Newsford';
 import Newsporsche from './components/news/Newsporsche';
 import Newstoyota from './components/news/Newstoyota';
 import Newsdealer from './components/news/Newsdealer';
+import Forestertab from './components/autolistings/listingcars/Forestertab';
+import Miragerange from './components/autolistings/listingcars/Miragerange';
+import Mitsubishilancer1 from './components/autolistings/listingcars/Mitsubishilancer1';
+import Pajerorange from './components/autolistings/listingcars/Pajerorange';
+import Subaruliberty from './components/autolistings/listingcars/Subaruliberty';
+import Xvrange from './components/autolistings/listingcars/Xvrange';
 
 
 function App() {
@@ -40,6 +46,12 @@ function App() {
         <Route path='/Newsporsche' exact element={<Newsporsche/>} />
         <Route path='/Newstoyota' exact element={<Newstoyota/>} />
         <Route path='/Newsdealer' exact element={<Newsdealer/>} />
+        <Route path='/Forestertab' exact element={<Forestertab/>} />
+        <Route path='/Miragerange' exact element={<Miragerange/>} />
+        <Route path='/Mitsubishilancer1' exact element={<Mitsubishilancer1/>} />
+        <Route path='/Pajerorange' exact element={<Pajerorange/>} />
+        <Route path='/Subaruliberty' exact element={<Subaruliberty/>} />
+        <Route path='/Xvrange' exact element={<Xvrange/>} />
       </Routes>
     </Router>
     <FooterContainer/>
