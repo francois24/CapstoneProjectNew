@@ -48,13 +48,11 @@ function Navbar() {
           </li>
           
           <li className='nav-item'>
-            <Link
-              to='/Autolistings'
+            <a href='/Autolistings/#'
               className='nav-links'
-              onClick={closeMobileMenu}
             >
               AUTOLISTINGS
-            </Link>
+            </a>
           </li>
          
           <li className='nav-item'>
@@ -82,13 +80,11 @@ function Navbar() {
           </li>
 
           <li className='nav-item'>
-            <Link
-              to='/Contact'
+            <a href='/Contact/#'
               className='nav-links'
-              onClick={closeMobileMenu}
             >
              CONTACT&#160;US
-            </Link>
+            </a>
           </li>
 
         </ul>

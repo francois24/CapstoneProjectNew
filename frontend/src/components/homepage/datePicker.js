@@ -39,6 +39,7 @@ export default function MaterialUIPickers() {
           spacing={3}>
 
             <MobileDatePicker
+            minDate={new Date()}
             label="PICK-UP DATE"
             inputFormat="MM/DD/YYYY"
             value={pickUp}
@@ -47,6 +48,7 @@ export default function MaterialUIPickers() {
             />
 
             <MobileDatePicker
+            minDate={new Date()}
             label="DROP-OFF DATE"
             inputFormat="MM/DD/YYYY"
             value={dropOff}
@@ -80,7 +82,7 @@ export default function MaterialUIPickers() {
             </FormControl>
 
             <Button className='bg-danger rounded-2 border-0 p-2 fs-6 text-light'>
-                FIND IT NOW
+                RENT NOW
             </Button>
         
         </Stack>
