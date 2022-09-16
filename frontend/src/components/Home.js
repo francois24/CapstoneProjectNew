@@ -8,6 +8,7 @@ import Latestnews from './homepage/Latesnews'
 import Reviews from './homepage/review';
 import Banner from './homepage/banner'
 import Rentalserv from './homepage/Rentalserv'
+import Register from './Register/Register';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Rentalserv/>
       <Latestnews/>
       <Reviews/>
+      <Register/>
     </main>
     </>
   );

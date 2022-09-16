@@ -1,6 +1,8 @@
 import '../../css/banner.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import MaterialUIPickers from './datePicker'
+// import MaterialUIPickers from './datePicker'
+import Login from '../Register/Login'
+
 
 
 export default function Banner() {
@@ -15,9 +17,11 @@ export default function Banner() {
                     </div>
                 </div>
 
-                <div className='col-sm-5 d-flex justify-content-center'>
+                <div className='col-sm-5 d-flex justify-content-center divv'>
                     <div className='datepicker bg-light p-3 pt-5 pb-4'>
-                        <MaterialUIPickers />
+                        {/* <MaterialUIPickers /> */}
+                        <Login/>
+                      
                     </div>
                 </div>
             </div>
